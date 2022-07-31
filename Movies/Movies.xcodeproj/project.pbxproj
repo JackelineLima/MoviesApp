@@ -13,6 +13,7 @@
 		375B80912897425D00BB2F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375B808F2897425D00BB2F71 /* Main.storyboard */; };
 		375B80932897425E00BB2F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375B80922897425E00BB2F71 /* Assets.xcassets */; };
 		375B80962897425E00BB2F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375B80942897425E00BB2F71 /* LaunchScreen.storyboard */; };
+		375B809E2897432700BB2F71 /* MoviesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B809D2897432700BB2F71 /* MoviesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		375B80922897425E00BB2F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		375B80952897425E00BB2F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		375B80972897425E00BB2F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375B809D2897432700BB2F71 /* MoviesProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesProvider.swift; path = ../../../Swift/Movies/Movies/Movies/MoviesProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				375B80892897425D00BB2F71 /* AppDelegate.swift */,
 				375B808B2897425D00BB2F71 /* SceneDelegate.swift */,
 				375B808D2897425D00BB2F71 /* ViewController.swift */,
+				375B809D2897432700BB2F71 /* MoviesProvider.swift */,
 				375B808F2897425D00BB2F71 /* Main.storyboard */,
 				375B80922897425E00BB2F71 /* Assets.xcassets */,
 				375B80942897425E00BB2F71 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				375B808E2897425D00BB2F71 /* ViewController.swift in Sources */,
+				375B809E2897432700BB2F71 /* MoviesProvider.swift in Sources */,
 				375B808A2897425D00BB2F71 /* AppDelegate.swift in Sources */,
 				375B808C2897425D00BB2F71 /* SceneDelegate.swift in Sources */,
 			);
