@@ -9,4 +9,8 @@ import UIKit
 
 class MoviesProvider {
     let apiKey = "c5afbced1d1ab3501b3e8c9baacca3be"
+    
+    func getMovies() {
+        
+    }
 }
