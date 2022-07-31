@@ -7,13 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MovieViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    override func loadView() {
+        super.loadView()
+    }
 }
 
