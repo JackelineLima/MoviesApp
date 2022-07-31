@@ -58,16 +58,56 @@
 		375B80882897425D00BB2F71 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
-				375B80892897425D00BB2F71 /* AppDelegate.swift */,
-				375B808B2897425D00BB2F71 /* SceneDelegate.swift */,
-				375B808D2897425D00BB2F71 /* ViewController.swift */,
+				375B80A52897454D00BB2F71 /* Provider */,
+				375B80A42897452900BB2F71 /* SuportedFiles */,
+				375B80A32897452100BB2F71 /* Model */,
+				375B80A22897450900BB2F71 /* Controller */,
+				375B80A12897450200BB2F71 /* View */,
 				375B808F2897425D00BB2F71 /* Main.storyboard */,
 				375B80922897425E00BB2F71 /* Assets.xcassets */,
 				375B80942897425E00BB2F71 /* LaunchScreen.storyboard */,
 				375B80972897425E00BB2F71 /* Info.plist */,
-				375B809F2897439400BB2F71 /* MoviesProvider.swift */,
 			);
 			path = Movies;
+			sourceTree = "<group>";
+		};
+		375B80A12897450200BB2F71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		375B80A22897450900BB2F71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				375B808D2897425D00BB2F71 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		375B80A32897452100BB2F71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		375B80A42897452900BB2F71 /* SuportedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				375B808B2897425D00BB2F71 /* SceneDelegate.swift */,
+				375B80892897425D00BB2F71 /* AppDelegate.swift */,
+			);
+			path = SuportedFiles;
+			sourceTree = "<group>";
+		};
+		375B80A52897454D00BB2F71 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				375B809F2897439400BB2F71 /* MoviesProvider.swift */,
+			);
+			path = Provider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
