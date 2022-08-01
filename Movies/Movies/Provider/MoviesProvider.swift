@@ -9,6 +9,7 @@ import UIKit
 
 class MoviesProvider {
     let apiKey = "c5afbced1d1ab3501b3e8c9baacca3be"
+    let BASE_URL = "http://api.themoviedb.org/"
     
     func getMovies() {
         

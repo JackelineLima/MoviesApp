@@ -15,6 +15,7 @@
 		375B80962897425E00BB2F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375B80942897425E00BB2F71 /* LaunchScreen.storyboard */; };
 		375B80A02897439400BB2F71 /* MoviesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B809F2897439400BB2F71 /* MoviesProvider.swift */; };
 		375B80A7289745D500BB2F71 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B80A6289745D500BB2F71 /* MoviesView.swift */; };
+		375B80A9289847F200BB2F71 /* MoviesViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B80A8289847F200BB2F71 /* MoviesViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		375B80972897425E00BB2F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		375B809F2897439400BB2F71 /* MoviesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesProvider.swift; sourceTree = "<group>"; };
 		375B80A6289745D500BB2F71 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		375B80A8289847F200BB2F71 /* MoviesViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				375B80A6289745D500BB2F71 /* MoviesView.swift */,
+				375B80A8289847F200BB2F71 /* MoviesViewTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				375B80A7289745D500BB2F71 /* MoviesView.swift in Sources */,
 				375B808E2897425D00BB2F71 /* MoviesViewController.swift in Sources */,
 				375B80A02897439400BB2F71 /* MoviesProvider.swift in Sources */,
+				375B80A9289847F200BB2F71 /* MoviesViewTableViewCell.swift in Sources */,
 				375B808A2897425D00BB2F71 /* AppDelegate.swift in Sources */,
 				375B808C2897425D00BB2F71 /* SceneDelegate.swift in Sources */,
 			);
